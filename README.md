@@ -45,6 +45,17 @@ pip install pandas numpy scikit-learn matplotlib seaborn scipy
 
 ### Running the Preprocessing
 
+**Option 1: Using Jupyter Notebooks (Recommended for Course Submission)**
+```bash
+# Start Jupyter
+jupyter notebook
+
+# Then open and run:
+# - analyze_dataset.ipynb
+# - preprocess_data.ipynb
+```
+
+**Option 2: Using Python Scripts**
 ```bash
 # Analyze the dataset distribution
 python analyze_dataset.py
@@ -66,8 +77,8 @@ The preprocessing script will generate:
 ```
 .
 ├── README.md
-├── analyze_dataset.py          # Dataset analysis and visualization
-├── preprocess_data.py           # Data preprocessing pipeline
+├── analyze_dataset.ipynb        # Dataset analysis notebook (MAIN)
+├── preprocess_data.ipynb        # Data preprocessing notebook (MAIN)
 ├── user_business_distribution.png  # Distribution analysis visualization
 └── dataset_analysis.png         # Initial dataset analysis
 ```

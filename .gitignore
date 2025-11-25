@@ -5,6 +5,10 @@
 google_restaraunt.json
 processed_reviews.csv
 
+# Python scripts (we use Jupyter notebooks for submission)
+analyze_dataset.py
+preprocess_data.py
+
 # Keep PNG visualization files
 !*.png
 
